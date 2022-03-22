@@ -1,0 +1,1 @@
+/home/nick/.userconfigs/.bash_aliases
