@@ -1,0 +1,16 @@
+# Ignore everything
+*
+
+# Except...
+!.gitignore
+!.bashrc
+!.vimrc
+!.profile
+!.run_veeam_backup.sh
+!sshd_config
+!issue.net
+
+# Or in subdirs like...
+!.ssh/
+.ssh.*
+!/.ssh/config
