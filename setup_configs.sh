@@ -7,6 +7,9 @@ ln -sf ~/.userconfigs/.ssh/config ~/.ssh/config
 # Link ~/.vimrc
 ln -sf ~/.userconfigs/.vimrc ~/.vimrc
 
+#Link ~/.profile
+ln -sf ~/.userconfigs/.profile ~/.profile
+
 # Link ~/.bashrc
 ln -sf ~/.userconfigs/.bashrc ~/.bashrc
 
