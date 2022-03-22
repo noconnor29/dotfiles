@@ -6,7 +6,8 @@
 !.bashrc
 !.vimrc
 !.profile
-!.run_veeam_backup.sh
+!setup_configs.sh
+!run_veeam_backup.sh
 !sshd_config
 !issue.net
 
