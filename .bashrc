@@ -8,8 +8,6 @@ case $- in
       *) return;;
 esac
 
-alias upall="sudo apt update -y && sudo apt upgrade -y --allow-downgrades && sudo apt autoremove -y"
-
 export PYTHONPATH="${PYTHONPATH}:~/.local/bin"
 
 # don't put duplicate lines or lines starting with space in the history.
@@ -134,7 +132,3 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
-alias dc-pull='docker-compose -f ~/docker/docker-compose.yml pull'                                   
-alias dc-up='docker-compose -f ~/docker/docker-compose.yml up -d --remove-orphans'
-alias dc-down='docker stop $(docker ps -aq) && docker rm $(docker ps -aq)'
