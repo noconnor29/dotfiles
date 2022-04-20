@@ -71,6 +71,8 @@ Plugin 'tpope/vim-fugitive'
 " Powerline integration
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 
+" Whitespace Identification
+Plugin 'ntpeters/vim-better-whitespace'
 
 " ...
 
