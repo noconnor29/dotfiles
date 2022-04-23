@@ -3,6 +3,8 @@
 " Launch vim and run :PluginInstall
 " OR: To install from command line: vim +PluginInstall +qall
 " Install YouCompleteMe Plugin
+" If existing repo, may require:
+" git pull --recurse-submodules origin master
 " sudo apt install build-essential cmake3 python3-dev
 " cd ~/.vim/bundle/YouCompleteMe
 " python3 install.py --clangd-completer
