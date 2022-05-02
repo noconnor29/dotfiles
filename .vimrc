@@ -6,6 +6,7 @@
 " If existing repo, may require:
 " git pull --recurse-submodules origin master
 " sudo apt install build-essential cmake3 python3-dev
+" sudo dnf install cmake gcc-c++ make python3-devel
 " cd ~/.vim/bundle/YouCompleteMe
 " python3 install.py --clangd-completer
 
@@ -76,14 +77,19 @@ Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 " Whitespace Identification
 Plugin 'ntpeters/vim-better-whitespace'
 
+" Dracula Color Scheme
+Plugin 'dracula/vim', { 'name': 'dracula' }
+
 " ...
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
+let g:dracula_colorterm = 1
+colorscheme dracula
 filetype plugin indent on    " required
 
 " Python appropriate PEP8 indentation
-au BufNewFile,BufRead *.py  
+au BufNewFile,BufRead *.py
     \ set tabstop=4  |
     \ set softtabstop=4  |
     \ set shiftwidth=4   |
