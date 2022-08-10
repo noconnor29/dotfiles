@@ -8,7 +8,7 @@
 " sudo apt install build-essential cmake3 python3-dev
 " sudo dnf install cmake gcc-c++ make python3-devel
 " cd ~/.vim/bundle/YouCompleteMe
-" python3 install.py --clangd-completer
+" python3 install.py
 
 set number
 set cursorline
