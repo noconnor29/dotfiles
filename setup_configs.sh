@@ -13,3 +13,4 @@ ln -sf ~/.userconfigs/.bash_aliases ~/.bash_aliases
 
 # Will also need to run manually for veeam
 # sudo ln -s /home/nick/.run_veeam_backup.sh /etc/profile.d/run_veeam_backup.sh
+source ~/.bashrc
