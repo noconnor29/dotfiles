@@ -6,3 +6,5 @@ alias dc-down='sudo docker stop $(sudo docker ps -aq) && sudo docker rm $(sudo d
 alias please='sudo'
 alias yl='yamllint'
 alias al='ansible-lint'
+alias al='ansible-lint'
+alias tailscale up='tailscale up --accept-routes --shields-up --exit-node=100.66.128.47'
