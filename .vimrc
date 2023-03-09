@@ -5,7 +5,7 @@
 " Install YouCompleteMe Plugin
 " If existing repo, may require:
 " git pull --recurse-submodules origin master
-" sudo apt install build-essential cmake3 python3-dev
+" sudo apt install build-essential cmake python3-dev
 " sudo dnf install cmake gcc-c++ make python3-devel
 " cd ~/.vim/bundle/YouCompleteMe
 " python3 install.py

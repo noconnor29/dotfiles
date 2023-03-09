@@ -23,7 +23,7 @@ fi
 # start ssh-agent on login; only for GUI machines
 if [ -z "$SSH_AUTH_SOCK" ] ; then
   eval `ssh-agent -s`
-#  ssh-add ~/.ssh/`hostname`
+  ssh-add -K
 fi
 
 # don't put duplicate lines or lines starting with space in the history.
@@ -133,3 +133,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+complete -C /usr/bin/terraform terraform
