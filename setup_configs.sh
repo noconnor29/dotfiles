@@ -4,6 +4,9 @@
 # Link ~/.ssh/config
 ln -sf ~/.userconfigs/.ssh/config ~/.ssh/config
 
+# Link ~/.gitconfig
+ln -sf ~/.userconfigs/.gitconfig ~/.gitconfig
+
 # Link ~/.vimrc
 ln -sf ~/.userconfigs/.vimrc ~/.vimrc
 

@@ -3,8 +3,10 @@
 
 # Except...
 !.gitignore
+!.gitconfig
 !.bashrc
 !.bash_aliases
+!.bash_profile
 !.vimrc
 !.profile
 !setup_configs.sh
