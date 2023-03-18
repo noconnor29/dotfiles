@@ -1,10 +1,12 @@
 [user]
 	email = 36704600+noconnor29@users.noreply.github.com
 	name = Nick OConnor
-	signingkey = ~/.ssh/id_ed25519_sk_rk.pub
+	signingKey = ~/.ssh/id_ed25519_sk_rk
 [commit]
 	gpgsign = true
 [gpg]
 	format = ssh
 [tag]
 	gpgsign = true
+[gpg "ssh"]
+	allowedSignersFile = ~/.ssh/allowed_signers
