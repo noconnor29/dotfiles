@@ -3,6 +3,7 @@
 
 # Link ~/.ssh/config
 ln -sf ~/projects/dotfiles/.ssh/config ~/.ssh/config
+ln -sf ~/projects/dotfiles/.ssh/allowed_signers ~/.ssh/allowed_signers
 
 # Link ~/.gitconfig
 ln -sf ~/projects/dotfiles/.gitconfig ~/.gitconfig

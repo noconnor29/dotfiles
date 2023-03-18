@@ -18,3 +18,4 @@
 !.ssh/
 .ssh.*
 !/.ssh/config
+!/.ssh/allowed_signers
